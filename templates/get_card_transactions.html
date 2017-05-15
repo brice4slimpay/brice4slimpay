@@ -1,0 +1,8 @@
+{% include "header.html" %}
+{% block body %}
+<h2>La requête GET_CARD_TRANSACTIONS a généré la réponse suivante :</h2>
+{% block printJson %}
+    {{ data|safe }}
+{% endblock %}
+<div class="footer navbar-fixed-bottom text-center">Copyright Brice Leclercq 2017 © Tous droits réservés</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/bootstrap.min.css" media="screen">
+    <title>Brice4SlimPay</title>
+</head>
+{% block body %}
+{% block navbar %}
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="/"><div class="navbar-brand">Brice4SlimPay</div></a>
+        </div>
+    </div>
+</nav>
+{% endblock %}
+{% block hello_world %}
+<div class="jumbotron">
+    <h1 class="text-center">Bienvenue sur Brice4SlimPay</h1>
+</div>
+{% endblock %}
+{% endblock %}
+{% include "footer.html" %}
+</html>

@@ -1,0 +1,8 @@
+{% include "header.html" %}
+{% include "footer.html" %}
+{% block body %}
+<h2>La requête GET_ORDERS a généré la réponse suivante :</h2>
+{% block printJson %}
+    {{ data|safe }}
+{% endblock %}
+{% endblock %}
